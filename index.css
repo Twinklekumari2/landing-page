@@ -121,6 +121,10 @@ html,body{
     text-align: center;
     padding: 0.7vw;
 }
+.left p strong{
+    color: red;
+    font-weight: 300;
+}
 .left p:hover{
     backdrop-filter:blur(50px);
     padding: 1vw;
@@ -309,6 +313,7 @@ html,body{
         margin-top: 4vh;
         font-size: 3vw;
     }
+    
     .photobox{
         width: 100%;
     }
