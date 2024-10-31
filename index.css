@@ -312,6 +312,7 @@ html,body{
         backdrop-filter: blur(20px);
         margin-top: 4vh;
         font-size: 3vw;
+        height: 50%;
     }
     
     .photobox{
