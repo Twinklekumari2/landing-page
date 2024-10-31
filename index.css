@@ -113,7 +113,7 @@ html,body{
     font-size: 3vw;
     font-style: italic;
 }
-.left p{
+.left #content{
     font-weight: 200;
     font-size: 1vw;
     backdrop-filter: blur(20px);
@@ -125,7 +125,7 @@ html,body{
     color: red;
     font-weight: 300;
 }
-.left p:hover{
+.left #content:hover{
     backdrop-filter:blur(50px);
     padding: 1vw;
 }
@@ -169,6 +169,11 @@ html,body{
     width: 150%;
     z-index: 112;
 
+}
+.left .RULES{
+    backdrop-filter: blur(0px);
+    display: none;
+    background: none;
 }
 #photogrid-1{
     background-image: url(https://tse3.mm.bing.net/th?id=OIP.ZUD5G_BXy7TqdPAu6RVRSgHaEo&pid=Api&P=0&h=220);
@@ -287,10 +292,15 @@ html,body{
         background-repeat: repeat;
         animation: background 15s ease-in-out 0s forwards infinite alternate;
     }
-    /* @keyframes background {
-        
-    
-    } */
+    .left .RULES{
+        display: block;
+        backdrop-filter: blur(20px);
+        height: 30%;
+        /* margin-top: 1vw; */
+    }
+    .left #RULES{
+        height: 10%;
+    }
      .right{
         background-image: url(https://cdn.wallpapersafari.com/40/28/CcoNYk.jpg);
         backdrop-filter: blur(20px);
@@ -307,14 +317,13 @@ html,body{
         padding: 3vw;
         font-weight: 700;
     }
-    .left p{
+    .left #content{
         background: transparent;
         backdrop-filter: blur(20px);
         margin-top: 4vh;
         font-size: 3vw;
-        height: 50%;
+        height: 25%;
     }
-    
     .photobox{
         width: 100%;
     }
