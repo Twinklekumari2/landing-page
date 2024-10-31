@@ -295,7 +295,7 @@ html,body{
     .left .RULES{
         display: block;
         backdrop-filter: blur(20px);
-        height: 18%;
+        height: 15%;
         /* margin-top: 1vw; */
     }
     .left #RULES{
@@ -323,7 +323,7 @@ html,body{
         backdrop-filter: blur(20px);
         margin-top: 4vh;
         font-size: 3vw;
-        height: 25%;
+        height: 20%;
     }
     .photobox{
         width: 100%;
