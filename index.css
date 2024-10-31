@@ -295,11 +295,11 @@ html,body{
     .left .RULES{
         display: block;
         backdrop-filter: blur(20px);
-        height: 23%;
+        height: 18%;
         /* margin-top: 1vw; */
     }
     .left #RULES{
-        font-size: large;
+        font-size: small;
         height: 10%;
     }
      .right{
